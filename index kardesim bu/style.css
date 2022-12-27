@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+
+.settings{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 10px;
+    
+}
+/* inline block etiketler üzerinde genişlik ve yükseklik ayarlamama izin verir. */
+
+.settings ul li{
+    display: inline-block;
+   align-items: center;
+   font-size: 15px;
+   margin: 10px;
+  
+
+}
+/*  text dec. yazıların altındaki çizgiyi kaldırır. */
+.settings ul li a{
+    text-decoration: none; 
+    color: black;
+} 
+/* overline- üst çizgi ,,,  line through- üstü çizili ,,,
+ underlin- alt çizgi ekler. */
+.settings ul li a:hover{
+    text-decoration:underline;
+
+}
+
+.settings .session{
+    background: #8ab4f8;
+    border: 1px solid transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #202124;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    cursor:pointer;
+
+
+}
+
+/* cursor pointer imleci basabileceğimiz şekle büründürür. */
+.settings img{
+    
+    margin-right: 5px;
+    cursor:pointer;
+}
+
+.settings img:hover{
+    background-color:#EBE9E8;
+    border-radius: 50%;
+}
+
+
+
+#orta #logo{
+
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+#orta .arama{
+    width: 580px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: 183px;
+    text-align: center;
+}
+
+#orta .arama .s-input {
+    display: block;
+    border: 1px solid #ddd;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 100%;
+    outline: none;
+}
+
+
+
+  #orta .arama #search{
+    width: 20px;
+    opacity: 0.4;
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    cursor: pointer;
+  }
+
+  #orta .arama .s-input:hover {
+    -webkit-box-shadow: 1px 1px 5px grey;
+            box-shadow: 1px 1px 5px grey;
+  }
+
+  #orta .arama #mic{
+    width: 30px;
+    position: absolute;
+    top: 13px;
+    right: -5px;
+    cursor: pointer;
+  }
+
+  #orta .arama #key{
+    width: 32px;
+    position: absolute;
+    top: 13px;
+    right: -38px;
+    cursor: pointer;
+  }
+
+  #orta .arama button {
+    border: 1px solid transparent;
+    padding: 9px 15px;
+    color: black;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 28px;
+    cursor: pointer;
+  }
+
+  #orta .arama button:hover {
+    border: 1px solid #aaa;
+  }
+
+  
+  footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 110px;
+  }
+  
+  footer h4 {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: 200;
+    padding-left: 29px;
+    border: 1px solid #eee;
+    position: relative;
+    top: 19px;
+  }
+  
+  footer a {
+    color: #5f6368;
+    display: inline-block;
+    padding: 12px 11px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer .son {
+    border-top: 1px solid #ddd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: 40px;
+  }
+  
+  footer .son .son1 {
+    padding-left: 17px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  
+  footer .son .son2 {
+    padding-right: 18px;
+    
+  }
+
+    
